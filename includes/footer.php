@@ -37,10 +37,10 @@
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h6 class="fw-bold mb-3">Quick Links</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#home" class="text-secondary text-decoration-none">Home</a></li>
-                        <li class="mb-2"><a href="#about" class="text-secondary text-decoration-none">About</a></li>
-                        <li class="mb-2"><a href="#projects" class="text-secondary text-decoration-none">Projects</a></li>
-                        <li class="mb-2"><a href="#contact" class="text-secondary text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="index.php" class="text-secondary text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.php" class="text-secondary text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="projects.php" class="text-secondary text-decoration-none">Projects</a></li>
+                        <li class="mb-2"><a href="contact.php" class="text-secondary text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
 
