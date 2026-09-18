@@ -12,7 +12,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuli Moses Kimatu | Portfolio</title>
+<?php
+    // SEO metadata — can be overridden by individual pages.
+    $seo_title = $seo_title ?? 'Tuli Moses Kimatu | Real Estate & Web Systems Developer';
+    $seo_description = $seo_description ?? 'Portfolio of Tuli Moses Kimatu, a JKUAT Bachelor of Real Estate graduate and Web Systems Developer in Kenya.';
+    $seo_url = $seo_url ?? 'https://kimatutuli.page.gd' . strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
+    $seo_image = $seo_image ?? 'https://kimatutuli.page.gd/assets/images/favicon.png';
+    $seo_type = $seo_type ?? 'website';
+?>
+    <title><?php echo htmlspecialchars($seo_title, ENT_QUOTES, 'UTF-8'); ?></title>
+
+    <meta name="description" content="<?php echo htmlspecialchars($seo_description, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="keywords" content="Kimatu Tuli, Tuli Moses Kimatu, Real Estate, Web Developer, PropTech, GIS, PHP, JKUAT, Kenya">
+    <meta name="author" content="Tuli Moses Kimatu">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="<?php echo htmlspecialchars($seo_url, ENT_QUOTES, 'UTF-8'); ?>">
+
+    <meta property="og:type" content="<?php echo htmlspecialchars($seo_type, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:title" content="<?php echo htmlspecialchars($seo_title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($seo_description, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($seo_url, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:site_name" content="Kimatu Tuli Portfolio">
+    <meta property="og:image" content="<?php echo htmlspecialchars($seo_image, ENT_QUOTES, 'UTF-8'); ?>">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($seo_title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($seo_description, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($seo_image, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
@@ -30,11 +56,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Meta for SEO -->
-    <meta name="description" content="Portfolio of Tuli Moses Kimatu — Real Estate and Web Systems Developer from JKUAT.">
-    <meta name="keywords" content="Tuli Moses Kimatu, Real Estate, GIS Mapping, Web Developer, PHP Portfolio, JKUAT, Kenya">
-    <meta name="author" content="Tuli Moses Kimatu">
 
     <!-- =========================================================
          SITE HEADER / NAVBAR THEME
