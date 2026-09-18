@@ -22,7 +22,7 @@ if (!$project) {
 
 $seo_title = e($project['title']) . ' | Kimatu Tuli Projects';
 $seo_description = trim(substr(strip_tags($project['description']), 0, 155));
-$seo_url = 'https://kimatutuli.page.gd/project_details.php?id=' . $id;
+$seo_url = 'https://kimatutuli.page.gd/tuli_portfolio/public/project_details.php?id=' . $id;
 $seo_type = 'article';
 
 include('../includes/header.php');
