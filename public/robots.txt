@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-Disallow: /admin/
-Disallow: /config/
-Disallow: /includes/
+Disallow: /tuli_portfolio/admin/
+Disallow: /tuli_portfolio/config/
+Disallow: /tuli_portfolio/includes/
 
-Sitemap: https://kimatutuli.page.gd/public/sitemap.xml
+Sitemap: https://kimatutuli.page.gd/tuli_portfolio/public/sitemap.xml
