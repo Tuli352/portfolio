@@ -5,4 +5,4 @@ Disallow: /admin/
 Disallow: /config/
 Disallow: /includes/
 
-Sitemap: https://kimatutuli.page.gd/sitemap.xml
+Sitemap: https://kimatutuli.page.gd/public/sitemap.xml
