@@ -1,7 +1,5 @@
 <?php
 include('../config/db_connect.php');
-include('../includes/header.php');
-
 $id = intval($_GET['id']);
 
 // Fetch project data with all images
@@ -21,6 +19,13 @@ if (!$project) {
     header("Location: projects.php?error=not_found");
     exit();
 }
+
+$seo_title = e($project['title']) . ' | Kimatu Tuli Projects';
+$seo_description = trim(substr(strip_tags($project['description']), 0, 155));
+$seo_url = 'https://kimatutuli.page.gd/project_details.php?id=' . $id;
+$seo_type = 'article';
+
+include('../includes/header.php');
 
 // Process images
 $images = [];
