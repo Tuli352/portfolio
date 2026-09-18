@@ -1,5 +1,7 @@
 <?php
 include('../config/db_connect.php');
+$seo_title = 'Skills | Kimatu Tuli Portfolio';
+$seo_description = 'View Kimatu Tuli\'s skills in real estate, web development, databases, GIS, AI, ICT support and analytical work.';
 
 // Fetch all skills grouped by category with specific ordering
 $query = "SELECT * FROM skills 
