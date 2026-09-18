@@ -1,5 +1,7 @@
 <?php
 include('../config/db_connect.php');
+$seo_title = 'Projects | Kimatu Tuli Portfolio';
+$seo_description = 'Explore Kimatu Tuli\'s real estate, GIS, web development and digital systems projects.';
 include('../includes/header.php');
 
 // Get all projects with their images
