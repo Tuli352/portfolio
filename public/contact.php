@@ -1,6 +1,8 @@
 <?php
 // Include database connection + header
 include('../config/db_connect.php');
+$seo_title = 'Contact Kimatu Tuli | Portfolio';
+$seo_description = 'Contact Kimatu Tuli for real estate, web development, property systems and digital solution projects.';
 include('../includes/header.php');
 
 // Fetch "About" section (only one row)
