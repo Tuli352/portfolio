@@ -1,4 +1,7 @@
 <?php
+$seo_title = 'About Kimatu Tuli | Real Estate & Web Systems Developer';
+$seo_description = 'Learn about Kimatu Tuli, a JKUAT Bachelor of Real Estate graduate working across real estate, technology, GIS and web systems.';
+
 // Include database connection + header
 include('../config/db_connect.php');
 include('../includes/header.php');
