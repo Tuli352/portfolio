@@ -12,12 +12,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
     // SEO metadata — can be overridden by individual pages.
     $seo_title = $seo_title ?? 'Tuli Moses Kimatu | Real Estate & Web Systems Developer';
     $seo_description = $seo_description ?? 'Portfolio of Tuli Moses Kimatu, a JKUAT Bachelor of Real Estate graduate and Web Systems Developer in Kenya.';
-    $seo_url = $seo_url ?? 'https://kimatutuli.page.gd' . strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
-    $seo_image = $seo_image ?? 'https://kimatutuli.page.gd/assets/images/favicon.png';
+    $seo_url = $seo_url ?? 'https://kimatutuli.page.gd/tuli_portfolio/public/' . basename(strtok($_SERVER['REQUEST_URI'] ?? '/tuli_portfolio/public/index.php', '?'));
+    $seo_image = $seo_image ?? 'https://kimatutuli.page.gd/tuli_portfolio/public/assets/images/favicon.png';
     $seo_type = $seo_type ?? 'website';
+    ?>
     <title><?php echo htmlspecialchars($seo_title, ENT_QUOTES, 'UTF-8'); ?></title>
 
     <meta name="description" content="<?php echo htmlspecialchars($seo_description, ENT_QUOTES, 'UTF-8'); ?>">
