@@ -1,4 +1,7 @@
 <?php
+$seo_title = 'Kimatu Tuli | Real Estate & Web Systems Developer';
+$seo_description = 'Kimatu Tuli is a JKUAT Bachelor of Real Estate graduate and Web Systems Developer in Kenya. Explore real estate, GIS and software projects.';
+
 /**
  * Portfolio Home Page
  * index.php
